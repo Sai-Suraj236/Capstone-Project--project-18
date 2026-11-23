@@ -26,6 +26,7 @@ resource "aws_s3_bucket" "deployment" {
   tags = {
     Name    = "Project18-Infrastructure"
     Project = "Project18"
+    Environment = "Production"
   }
 }
 
